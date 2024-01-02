@@ -5,7 +5,7 @@ print('Movie Theatres near by you \n Movie_Land \n RK_cinema \n V.V_Mahal')
 Thearter=input('Enter the movie theater name:  ')
 var='Total seats avil : 50'
 a=Thearter
-if Thearter<='Movie_Land':
+if 'MOVIE_LAND'<=Thearter<='movie_Land' OR 'RK_CINEMA'<=Thearter<='rk_cinema' or 'V.V_MAHAL'<=Thearter<='v.v_mahal':
     print('Movies are \n SALAAR \n ANIMAL \n Hi Nanna ')
     movie=str(input('enter movie name: '))
     print(var)
